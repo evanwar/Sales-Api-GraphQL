@@ -1,0 +1,12 @@
+D:\Sales.Api\Sales.Framework\bin\Debug\net5.0\Sales.Framework.deps.json
+D:\Sales.Api\Sales.Framework\bin\Debug\net5.0\Sales.Framework.dll
+D:\Sales.Api\Sales.Framework\bin\Debug\net5.0\ref\Sales.Framework.dll
+D:\Sales.Api\Sales.Framework\bin\Debug\net5.0\Sales.Framework.pdb
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.csprojAssemblyReference.cache
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.AssemblyInfoInputs.cache
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.AssemblyInfo.cs
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.csproj.CoreCompileInputs.cache
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.dll
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\ref\Sales.Framework.dll
+D:\Sales.Api\Sales.Framework\obj\Debug\net5.0\Sales.Framework.pdb

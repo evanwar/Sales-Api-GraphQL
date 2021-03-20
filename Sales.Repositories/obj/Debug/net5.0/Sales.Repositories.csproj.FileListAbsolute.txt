@@ -1,0 +1,15 @@
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\Sales.Repositories.deps.json
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\Sales.Repositories.runtimeconfig.json
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\Sales.Repositories.runtimeconfig.dev.json
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\Sales.Repositories.dll
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\ref\Sales.Repositories.dll
+D:\Sales.Api\Sales.Repositories\bin\Debug\net5.0\Sales.Repositories.pdb
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.AssemblyInfoInputs.cache
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.AssemblyInfo.cs
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.csproj.CoreCompileInputs.cache
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.dll
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\ref\Sales.Repositories.dll
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.pdb
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.genruntimeconfig.cache
+D:\Sales.Api\Sales.Repositories\obj\Debug\net5.0\Sales.Repositories.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\Sales.Api\Sales.Entitys\bin\Debug\net5.0\Sales.Entitys.deps.json
+D:\Sales.Api\Sales.Entitys\bin\Debug\net5.0\Sales.Entitys.dll
+D:\Sales.Api\Sales.Entitys\bin\Debug\net5.0\ref\Sales.Entitys.dll
+D:\Sales.Api\Sales.Entitys\bin\Debug\net5.0\Sales.Entitys.pdb
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.csprojAssemblyReference.cache
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.AssemblyInfoInputs.cache
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.AssemblyInfo.cs
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.csproj.CoreCompileInputs.cache
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.dll
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\ref\Sales.Entitys.dll
+D:\Sales.Api\Sales.Entitys\obj\Debug\net5.0\Sales.Entitys.pdb

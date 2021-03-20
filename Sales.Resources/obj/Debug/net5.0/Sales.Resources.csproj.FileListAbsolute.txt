@@ -1,0 +1,14 @@
+D:\Sales.Api\Sales.Resources\bin\Debug\net5.0\Sales.Resources.deps.json
+D:\Sales.Api\Sales.Resources\bin\Debug\net5.0\Sales.Resources.dll
+D:\Sales.Api\Sales.Resources\bin\Debug\net5.0\ref\Sales.Resources.dll
+D:\Sales.Api\Sales.Resources\bin\Debug\net5.0\Sales.Resources.pdb
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.csprojAssemblyReference.cache
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.Settings.ConfigurationResources.resources
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.csproj.GenerateResource.cache
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.AssemblyInfoInputs.cache
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.AssemblyInfo.cs
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.csproj.CoreCompileInputs.cache
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.dll
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\ref\Sales.Resources.dll
+D:\Sales.Api\Sales.Resources\obj\Debug\net5.0\Sales.Resources.pdb
