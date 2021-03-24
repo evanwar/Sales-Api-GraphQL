@@ -87,3 +87,5 @@ D:\Sales.Api\Sales.Api\obj\Debug\net5.0\ref\Sales.Api.dll
 D:\Sales.Api\Sales.Api\obj\Debug\net5.0\Sales.Api.pdb
 D:\Sales.Api\Sales.Api\obj\Debug\net5.0\Sales.Api.genruntimeconfig.cache
 D:\Sales.Api\Sales.Api\bin\Debug\net5.0\appsettings.Production.json
+D:\Sales.Api\Sales.Api\bin\Debug\net5.0\Sales.Entitys.dll
+D:\Sales.Api\Sales.Api\bin\Debug\net5.0\Sales.Entitys.pdb

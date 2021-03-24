@@ -1804,6 +1804,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Sales.Entitys/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Sales.Entitys.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sales.Entitys.dll": {}
+        }
       }
     }
   },
@@ -6313,6 +6323,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Sales.Entitys/1.0.0": {
+      "type": "project",
+      "path": "../Sales.Entitys/Sales.Entitys.csproj",
+      "msbuildProject": "../Sales.Entitys/Sales.Entitys.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6327,7 +6342,8 @@
       "HotChocolate.Types.Selections >= 10.5.5",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
+      "Sales.Entitys >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6366,7 +6382,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Sales.Api\\Sales.Entitys\\Sales.Entitys.csproj": {
+              "projectPath": "D:\\Sales.Api\\Sales.Entitys\\Sales.Entitys.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

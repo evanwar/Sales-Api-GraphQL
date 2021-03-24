@@ -15,7 +15,7 @@
 
             descriptor
              .Field(p => p.Products)
-             .ResolveWith<Resolvers>(p => p.GetCommands(default!, default!))
+             //.ResolveWith<Resolvers>(p => p.GetCommands(default!, default!))
              .UseDbContext<DbSalesContext>()
              .Description("Lista de productos por categoria");
         }

@@ -1,23 +1,18 @@
 using HotChocolate;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using Sales.Repositories.GraphQLQuerys.Catalogs;
+using Sales.Repositories.GraphQLMutations;
+using Sales.Repositories.GraphQLQuerys.Querys;
+using Sales.Repositories.GraphQLSubscriptions;
 using Sales.Repositories.GraphQLTypes.Catalogs;
+using Sales.Repositories.GraphQLTypes.MainData;
 using Sales.Repositories.Persistence;
 using Sales.Resources.Settings;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Sales.Api
 {
@@ -40,14 +35,19 @@ namespace Sales.Api
 
             services.
                 AddGraphQLServer()
-                .AddQueryType<CatalogsQuery>()
+                .AddQueryType<Querys>()
+                .AddMutationType<Mutation>()
+                .AddSubscriptionType<Subscriptions>()
                 .AddType<CategoryType>()
+                .AddType<ProductsType>()
+                .AddType<CustomersType>()
                 .AddFiltering()
                 .AddSorting()
-                .AddProjections();
+                .AddProjections()
+                .AddInMemorySubscriptions();
 
-       
-                                                      
+
+
 
         }
 
@@ -59,6 +59,8 @@ namespace Sales.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseWebSockets();
 
             app
                .UseRouting()

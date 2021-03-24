@@ -1658,6 +1658,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Sales.Entitys/1.0.0": {
+        "runtime": {
+          "Sales.Entitys.dll": {}
+        },
+        "compile": {
+          "Sales.Entitys.dll": {}
+        }
+      },
       "Sales.Repositories/1.0.0": {
         "dependencies": {
           "HotChocolate": "11.0.9",
@@ -1668,7 +1676,8 @@
           "HotChocolate.Types": "11.0.9",
           "HotChocolate.Types.Filters": "11.0.9",
           "HotChocolate.Types.Selections": "10.5.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
+          "Sales.Entitys": "1.0.0"
         },
         "runtime": {
           "Sales.Repositories.dll": {}
@@ -4267,6 +4276,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Sales.Entitys/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Sales.Repositories/1.0.0": {
       "type": "project",

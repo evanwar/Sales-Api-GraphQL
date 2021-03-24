@@ -9,6 +9,7 @@ namespace Sales.Repositories.Persistence
 {
     public partial class DbSalesContext : DbContext
     {
+
         public DbSalesContext(DbContextOptions<DbSalesContext> options)
             : base(options)
         {
@@ -20,7 +21,7 @@ namespace Sales.Repositories.Persistence
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-    
+      
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -52,6 +53,38 @@ namespace Sales.Repositories.Persistence
             modelBuilder.Entity<Customer>(entity =>
             {
                 entity.HasKey(e => e.IdCustomer);
+
+                entity.HasIndex(e => e.PhoneNumber, "IX_Customers")
+                    .IsUnique();
+
+                entity.HasIndex(e => e.Email, "IX_Customers_Email")
+                    .IsUnique();
+
+                entity.Property(e => e.CreationDate).HasColumnType("datetime");
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FirstName)
+                    .IsRequired()
+                    .HasMaxLength(150)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.LastName)
+                    .IsRequired()
+                    .HasMaxLength(150)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.PhoneNumber)
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Status)
+                    .IsRequired()
+                    .HasDefaultValueSql("((1))");
+
+                entity.Property(e => e.Talacheria).HasMaxLength(150);
             });
 
             modelBuilder.Entity<Product>(entity =>

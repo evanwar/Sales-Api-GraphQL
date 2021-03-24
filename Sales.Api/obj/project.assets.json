@@ -1841,6 +1841,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Sales.Entitys/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Sales.Entitys.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sales.Entitys.dll": {}
+        }
+      },
       "Sales.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1853,7 +1863,8 @@
           "HotChocolate.Types": "11.0.9",
           "HotChocolate.Types.Filters": "11.0.9",
           "HotChocolate.Types.Selections": "10.5.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
+          "Sales.Entitys": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sales.Repositories.dll": {}
@@ -6431,6 +6442,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Sales.Entitys/1.0.0": {
+      "type": "project",
+      "path": "../Sales.Entitys/Sales.Entitys.csproj",
+      "msbuildProject": "../Sales.Entitys/Sales.Entitys.csproj"
     },
     "Sales.Repositories/1.0.0": {
       "type": "project",
