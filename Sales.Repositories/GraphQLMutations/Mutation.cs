@@ -26,7 +26,7 @@
 
             context.Categories.Add(newCategory);
             await context.SaveChangesAsync();
-            await eventSender.SendAsync(nameof(Category), newCategory, cancellationToken);
+            await eventSender.SendAsync("OnCategorySubscribe", newCategory);
             return newCategory;
         }
     }
