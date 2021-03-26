@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Api", "Sales.Api\Sales.Api.csproj", "{BCBADF38-D7F5-4C21-AC85-F1035B30DEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Entitys", "Sales.Entitys\Sales.Entitys.csproj", "{E771E428-8E70-45F4-A509-6DB6794211EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Entitys", "Sales.Entitys\Sales.Entitys.csproj", "{E771E428-8E70-45F4-A509-6DB6794211EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Framework", "Sales.Framework\Sales.Framework.csproj", "{78B91B23-9F4D-4129-8C4C-6EF6CDB3F942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Framework", "Sales.Framework\Sales.Framework.csproj", "{78B91B23-9F4D-4129-8C4C-6EF6CDB3F942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Repositories", "Sales.Repositories\Sales.Repositories.csproj", "{A83125AA-8F10-43AC-A6ED-59CF7A4CC5C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Repositories", "Sales.Repositories\Sales.Repositories.csproj", "{A83125AA-8F10-43AC-A6ED-59CF7A4CC5C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Resources", "Sales.Resources\Sales.Resources.csproj", "{7646D684-3E40-4AD8-90D9-A9F5072C5B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Resources", "Sales.Resources\Sales.Resources.csproj", "{7646D684-3E40-4AD8-90D9-A9F5072C5B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
